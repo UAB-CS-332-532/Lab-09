@@ -1,6 +1,6 @@
 # Lab-09: Signal Handling
 
-**Outcomes:**
+## **Outcomes:**
 
 - Understand what a signal is (in relationship to Unix).
 
@@ -16,14 +16,20 @@
 
 - Be able to use the signal()/sigaction() function to modify the default response (disposition) of a process to a signal.
 
-**Objective:** 
+## **Objective:** 
 
 Modify the program *forkexecvp.c* (found on GitHub and Canvas) such that when you type Control-C the child process is interrupted and when you type Control-Z the child process is suspended. In both cases,the parent process should continues to wait until it receives a quit signal (Control-\). 
 
-**Submission:**
+## **Submission:**
 
 Your submission to Canvas should include a README file and your source code (as a .c file).
 
 Be sure to submit your README and your source code as a ZIP file.
 
 Be sure to include the independent completition code snippet at the top of your source code.
+
+I, _______, declare that I have completed this assignment completely and entirely on my own, without any unathorized consultation from others or unathorized access to online websites. I have read the UAB Academic Honor Code and understand that any breach of the UAB Academic Honor Code may result in severe penalties.
+
+Student Signature/Initials: ____________
+
+Date: ____________
